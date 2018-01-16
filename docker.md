@@ -7,7 +7,7 @@
 Gives root permissions to current user to execute docker commands. For security reasons it is
 not recommended to use this command on production servers. 
 
-### Copy file into docker container folder
+### Copy file into docker container
 
 `docker cp ./local-file container-name:/path-in-container`
 
