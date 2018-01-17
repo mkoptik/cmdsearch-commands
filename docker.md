@@ -14,3 +14,11 @@ not recommended to use this command on production servers.
 ### Send docker image via SSH
 
 `docker save <image> | ssh -C user@ssh.host.com docker load`
+
+## Volume
+
+### Remove unused volumes
+
+`docker volume prune`
+
+Removes volumes not used by any containers
