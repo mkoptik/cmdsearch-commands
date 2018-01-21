@@ -1,5 +1,37 @@
 # General unix commands
 
+### Compress folder to tar.gz
+
+!!!! File contains absolute paths
+
+```
+tar -zcvf <archive-name>.tar.gz <directory-name-to-compress>
+```
+
+Create compressed file with directory contents where:
+- z: Use gzip program
+- c: Create archive
+- v: Verbose output
+- f: Output into given file
+
+### Compress folder to tar.gz and exclude some folder or file
+
+```
+tar --exclude='<directory-or-file-to-exclude>' --exclude='<another>' -zcvf <archive-name>.tar.gz <directory-name-to-compress>
+```
+
+Parameters description in previous command example. Path to file to exclude can be relative or absolute.
+
+### Extract/Uncompress tar.gz into specified folder
+
+```
+tar -zxvf <archive-file>.tar.gz -C <folder-where-to-extract>
+```
+
+Archive will be extracted into folder/<archive-file>. Parameters description in first command example. Plus:
+- x: Extract archive
+- C: Switch into directory
+
 ### List all users and their id
 
 ```
