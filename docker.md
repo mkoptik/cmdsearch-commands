@@ -33,6 +33,14 @@ docker exec -it <container-name> <unix-command-to-execute>
 docker exec -it -u <container-user-name> <container-name> <unix-command-to-execute>
 ```
 
+### Get into bash of docker container
+
+```
+docker exec -it <container-name> bash
+```
+
+When finished, quit terminal with ctrl+d
+
 ## Volume
 
 ### Remove unused volumes
