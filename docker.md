@@ -9,6 +9,12 @@ sudo usermod -aG docker $USER
 Gives root permissions to current user to execute docker commands. For security reasons it is
 not recommended to use this command on production servers. 
 
+### Start docker container from image with port mapping
+
+```
+docker run --name <name-of-created-container> -p <local-port>:<container-port> <image-name>
+```
+
 ### Copy file into docker container
 
 ```
