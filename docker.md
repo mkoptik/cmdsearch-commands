@@ -21,6 +21,22 @@ docker run --name <name-of-created-container> -p <local-port>:<container-port> <
 docker cp ./local-file container-name:/path-in-container
 ```
 
+### Save docker image to file
+
+```
+docker save -o <image-filename> <image-name>
+```
+
+Create image is in tar format
+
+### Load docker image from file
+
+```
+docker load -i <image-filename>
+```
+
+Loads docker image created with docker save command
+
 ### Send docker image via SSH
 
 ```
@@ -46,6 +62,14 @@ docker exec -it <container-name> bash
 ```
 
 When finished, quit terminal with ctrl+d
+
+### Attach bash on a running container
+
+```
+docker attach <container-name>
+```
+
+You can detach from the container and leave it running with ctrl+p ctrl+q
 
 ## Volume
 
