@@ -43,6 +43,12 @@ Loads docker image created with docker save command
 docker save <image> | ssh -C user@ssh.host.com docker load
 ```
 
+### Display disk usage of docker containers
+
+```
+docker ps -s
+```
+
 ### Execute command in docker container
 
 ```
