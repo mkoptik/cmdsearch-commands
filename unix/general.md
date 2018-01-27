@@ -50,3 +50,9 @@ groupadd --gid <group-id> <group-name>
 ```
 useradd --uid <user-id> -M --gid <group-id> <user-name>
 ```
+
+### Restart unix system
+
+```
+sudo shutdown -r now
+```
