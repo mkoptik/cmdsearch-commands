@@ -1,8 +1,6 @@
 # General unix commands
 
-### Compress folder to tar.gz
-
-!!!! File contains absolute paths
+### Compress folder to tar.gz (TODO: !!!! File contains absolute paths)
 
 ```
 tar -zcvf <archive-name>.tar.gz <directory-name-to-compress>
@@ -44,7 +42,6 @@ cut -d: -f1,3 /etc/passwd
 groupadd --gid <group-id> <group-name>
 ```
 
-
 ### Create user with specified user id, without home and assigned to group
 
 ```
@@ -55,4 +52,10 @@ useradd --uid <user-id> -M --gid <group-id> <user-name>
 
 ```
 sudo shutdown -r now
+```
+
+### Show IP address
+
+```
+ip addr show
 ```
