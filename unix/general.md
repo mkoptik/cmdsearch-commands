@@ -1,5 +1,11 @@
 # General unix commands
 
+### Get linux distribution name and version
+
+```
+cat /etc/*-release
+```
+
 ### Compress folder to tar.gz (TODO: !!!! File contains absolute paths)
 
 ```
