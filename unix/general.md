@@ -6,6 +6,18 @@
 cat /etc/*-release
 ```
 
+### Get time zone id
+
+```
+cat /etc/sysconfig/clock
+```
+
+### Get current date with local timezone
+
+```
+date
+```
+
 ### Compress folder to tar.gz (TODO: !!!! File contains absolute paths)
 
 ```
