@@ -17,6 +17,12 @@ cat /etc/sysconfig/clock
 ```
 date
 ```
+### List listening ports with program name / PID
+
+```
+netstat -tulpn
+```
+
 
 ### Compress folder to tar.gz (TODO: !!!! File contains absolute paths)
 
