@@ -1,5 +1,11 @@
 # General unix commands
 
+### Add or update symlink
+
+```
+sudo ln -sfn <target-path> <path-to-symlink>
+```
+
 ### Install .deb package
 
 ```
