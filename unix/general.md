@@ -1,5 +1,11 @@
 # General unix commands
 
+### Install .deb package
+
+```
+sudo dpkg -i <path-to-package>.deb && sudo apt-get install -f
+```
+
 ### Get linux distribution name and version
 
 ```
