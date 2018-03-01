@@ -1,5 +1,17 @@
 # General unix commands
 
+### Add or update symlink
+
+```
+sudo ln -sfn <target-path> <path-to-symlink>
+```
+
+### Install .deb package
+
+```
+sudo dpkg -i <path-to-package>.deb && sudo apt-get install -f
+```
+
 ### Get linux distribution name and version
 
 ```
@@ -17,6 +29,12 @@ cat /etc/sysconfig/clock
 ```
 date
 ```
+### List listening ports with program name / PID
+
+```
+netstat -tulpn
+```
+
 
 ### Unzip file to destination
 
