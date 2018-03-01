@@ -18,6 +18,18 @@ cat /etc/sysconfig/clock
 date
 ```
 
+### Unzip file to destination
+
+```
+unzip -d <destination-directory> <zip-file>
+```
+
+### Append directory to PATH variable
+
+```
+export PATH=$PATH:<directory-to-append>
+```
+
 ### Compress folder to tar.gz (TODO: !!!! File contains absolute paths)
 
 ```
