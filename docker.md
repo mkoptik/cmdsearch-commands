@@ -1,5 +1,9 @@
 # Docker example commands
 
+## docker run parameters
+
+- **-d** run in detached mode
+
 ### Do not require sudo to execute docker commands
 
 ```
