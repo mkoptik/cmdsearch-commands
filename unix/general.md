@@ -1,5 +1,11 @@
 # General unix commands
 
+### Get free (available) and used memory
+
+```
+free -m
+```
+
 ### Search text in files recursively, ignoring case
 
 ```
