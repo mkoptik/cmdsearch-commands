@@ -1,5 +1,11 @@
 # General unix commands
 
+### Search text in files recursively, ignoring case
+
+```
+grep -iR '<text-to-search>'
+```
+
 ### Add or update symlink
 
 ```
