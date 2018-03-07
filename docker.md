@@ -4,6 +4,13 @@
 
 - **-d** run in detached mode
 
+### Get procesor and memory usage of docker container(s)
+
+```
+docker stats <container_name> <container_name>
+```
+When container name is omitted, all containers are listed
+
 ### Do not require sudo to execute docker commands
 
 ```
