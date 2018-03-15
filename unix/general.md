@@ -1,5 +1,11 @@
 # General unix commands
 
+### Delete all directories by name
+
+```
+find -type d -name target -exec rm -rf {} \;
+```
+
 ### Get free (available) and used memory
 
 ```
