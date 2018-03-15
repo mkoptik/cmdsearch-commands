@@ -3,7 +3,7 @@
 ### Delete all directories by name
 
 ```
-find -type d -name target -exec rm -rf {} \;
+find -type d -name <directory-name> -exec rm -rf {} \;
 ```
 
 ### Get free (available) and used memory
