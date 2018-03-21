@@ -1,9 +1,5 @@
 # Docker example commands
 
-## docker run parameters
-
-- **-d** run in detached mode
-
 ### Build docker image with custom name
 
 ```
