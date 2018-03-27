@@ -125,3 +125,12 @@ sudo shutdown -r now
 ```
 ip addr show
 ```
+
+### Set permissions to file or directory
+
+```
+chmod u=rwx,g=rx,o=r <file-or-directory>
+```
+
+u - user, g - group, o - others, r - read, w - write, x - execute
+
