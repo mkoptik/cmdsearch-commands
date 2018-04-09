@@ -1,5 +1,11 @@
 # General unix commands
 
+### Get external IP address
+
+```
+curl ipinfo.io/ip
+```
+
 ### Delete all directories by name
 
 ```
