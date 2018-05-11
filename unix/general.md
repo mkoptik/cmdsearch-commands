@@ -1,5 +1,13 @@
 # General unix commands
 
+### Find out model of graphic card
+
+```
+lspci | grep VGA
+```
+
+Before running this command, update list of PCI IDs via sudo update-pciids
+
 ### Get external IP address
 
 ```
