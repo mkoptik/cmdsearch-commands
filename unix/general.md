@@ -1,5 +1,11 @@
 # General unix commands
 
+### Find files by name and sort results by name
+
+```
+find <location> -name "<file-name>" -print | sort
+```
+
 ### Find out model of graphic card
 
 ```
