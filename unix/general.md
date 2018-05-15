@@ -6,7 +6,7 @@
 find <location> -name "<file-name>" -print | sort
 ```
 
-### Find out model of graphic card
+### Get graphic card name
 
 ```
 lspci | grep VGA
