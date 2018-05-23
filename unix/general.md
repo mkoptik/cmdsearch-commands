@@ -1,5 +1,13 @@
 # General unix commands
 
+### Print full path of current directory
+
+```
+pwd
+```
+
+The pwd command is a command line utility for printing the current working directory. It will print the full system path of the current working directory to standard output.
+
 ### Find files by name and sort results by name
 
 ```
