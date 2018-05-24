@@ -26,8 +26,10 @@ not recommended to use this command on production servers.
 ### Start docker container from image with port mapping
 
 ```
-docker run --name <name-of-created-container> -p <local-port>:<container-port> <image-name>
+docker run --rm --name <name-of-created-container> -p <local-port>:<container-port> <image-name>
 ```
+
+rm option will instruct docker to remove container once it finishes.
 
 ### Copy file into docker container
 
