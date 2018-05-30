@@ -1,5 +1,11 @@
 # find commands
 
+### Find file by name
+
+```
+find <search-root-path> -name "<file-name-pattern>" -print
+```
+
 ### Find files created today
 
 ```
