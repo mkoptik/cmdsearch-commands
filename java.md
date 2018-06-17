@@ -15,7 +15,7 @@ keytool -list -v -keystore <path-to-trust-store>.jks
 ### Put certificate into trust store
 
 ```
-keytool -import -alias stan -file <path-to-certificate> -keystore <path-to-trust-store>.jks
+keytool -import -alias <certficate-alias> -file <path-to-certificate> -keystore <path-to-trust-store>.jks
 ```
 
 ### Change alias in key store / trust store
