@@ -162,3 +162,8 @@ chmod u=rwx,g=rx,o=r <file-or-directory>
 
 u - user, g - group, o - others, r - read, w - write, x - execute
 
+### List repositories used by apt
+
+```
+grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/*
+```
