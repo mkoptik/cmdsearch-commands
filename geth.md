@@ -1,4 +1,4 @@
-# Commands for Ethereum GoLang client
+# Commands for Ethereum geth client
 
 ### Get synchronization status
 
