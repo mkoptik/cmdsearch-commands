@@ -167,3 +167,9 @@ u - user, g - group, o - others, r - read, w - write, x - execute
 ```
 grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/*
 ```
+
+### Add current user to a group
+
+```
+sudo adduser $USER <group-name>
+```
