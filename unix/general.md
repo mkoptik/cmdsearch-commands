@@ -173,3 +173,9 @@ grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/*
 ```
 sudo adduser $USER <group-name>
 ```
+
+### Change owner of all files in directory
+
+```
+chown <user>:<group> <directory>/*
+```
