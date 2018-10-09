@@ -102,3 +102,9 @@ docker volume prune
 ```
 
 Removes volumes not used by any containers
+
+### Kill container
+
+```
+docker kill <container-name>
+```
