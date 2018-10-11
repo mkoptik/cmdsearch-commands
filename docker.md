@@ -108,3 +108,9 @@ Removes volumes not used by any containers
 ```
 docker kill <container-name>
 ```
+
+### Show container logs
+
+```
+docker logs <container-name>
+```
