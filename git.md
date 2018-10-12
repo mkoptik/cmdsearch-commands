@@ -23,8 +23,7 @@ git apply <patch-file>
 ### Change user name and email for repository
 
 ```
-git config user.email "<email-address>"
-git config user.name "<name-of-user>"
+git config user.email "<email-address>" && git config user.name "<name-of-user>"
 ```
 
 This will apply change only for single repository. To apply this change globally, add --global modifier
