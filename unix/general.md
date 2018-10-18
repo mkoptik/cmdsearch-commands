@@ -179,3 +179,9 @@ sudo adduser $USER <group-name>
 ```
 chown <user>:<group> <directory>/*
 ```
+
+### Get text length
+
+```
+expr length "<text>"
+```
