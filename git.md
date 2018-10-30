@@ -33,3 +33,9 @@ This will apply change only for single repository. To apply this change globally
 ```
 git remote remove <remote-name>
 ```
+
+### List remotes
+
+```
+git remote -v
+```
