@@ -185,3 +185,9 @@ chown <user>:<group> <directory>/*
 ```
 expr length "<text>"
 ```
+
+### Remove symlink
+
+```
+unlink <link>
+```
