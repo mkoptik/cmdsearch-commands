@@ -191,3 +191,15 @@ expr length "<text>"
 ```
 unlink <link>
 ```
+
+### Replace all text occurences in a file
+
+```
+sed -i -e 's/<search>/<replace>/g' <file>
+```
+
+### Replace all text occurences in a file with a environment variable
+
+```
+sed -i -e 's/<search>/'"$<ENV_VARIABLE_NAME>"'/g' <file>
+```
