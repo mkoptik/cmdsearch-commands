@@ -114,3 +114,9 @@ docker kill <container-name>
 ```
 docker logs <container-name>
 ```
+
+### Remove unused/stopped containers
+
+```
+docker container prune
+```
