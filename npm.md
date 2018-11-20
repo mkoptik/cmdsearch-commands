@@ -15,3 +15,9 @@ sudo n <version>
 ```
 
 version in format v8, v9, v10
+
+### Login to private repository
+
+```
+npm login --registry=<registry-url> --scope=<dependencies-scope>
+```
