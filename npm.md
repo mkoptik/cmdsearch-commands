@@ -21,3 +21,10 @@ version in format v8, v9, v10
 ```
 npm login --registry=<registry-url> --scope=<dependencies-scope>
 ```
+
+### Link two packages
+
+```
+package1$ npm link
+package2$ npm link <name-of-package-1>
+```
