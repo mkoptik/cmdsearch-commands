@@ -3,7 +3,7 @@
 ### Input text from shell
 
 ```
-db shell input text '<text-to-input>'
+adb shell input text '<text-to-input>'
 ```
 
 Useful for entering long text
