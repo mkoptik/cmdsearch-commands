@@ -39,3 +39,9 @@ git remote remove <remote-name>
 ```
 git remote -v
 ```
+
+### Fetch all submodules
+
+```
+git submodule update --recursive --remote
+```
