@@ -11,3 +11,9 @@ gpg --import <path-to-public-key>
 ```
 gpg --output <output-file> --encrypt --recipient <email-or-public-key-id>
 ```
+
+### List keys with keyid
+
+```
+gpg --list-keys --keyid-format LONG
+```
