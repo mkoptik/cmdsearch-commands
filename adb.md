@@ -13,3 +13,9 @@ Useful for entering long text
 ```
 adb exec-out screencap -p > <output-file>.png
 ```
+
+### Get log with logcat by process name
+
+```
+adb logcat --pid=$(adb shell pidof -s <process_name>)
+```
